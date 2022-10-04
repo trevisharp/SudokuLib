@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SudokuLib;
+
+Sudoku sudoku1 = Sudoku.New(DifficultyLevel.Easy);
+Sudoku sudoku2 = Sudoku.New(DifficultyLevel.Hard);
+Console.WriteLine(sudoku1);
